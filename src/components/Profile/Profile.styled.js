@@ -10,7 +10,7 @@ export const UserProfile = styled.div`
 
   background-color: ${p => p.theme.colors.white};
   border-radius: 5px;
-  box-shadow: 5px 5px 12px 2px #96b8d4;
+  box-shadow: 5px 5px 10px 1px #9b9b9b;
 
   overflow: hidden;
 `;

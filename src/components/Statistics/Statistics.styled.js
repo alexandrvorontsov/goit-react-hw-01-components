@@ -8,8 +8,7 @@ export const StatisticsSection = styled.section`
   width: 40%;
   margin: 15px auto;
   border-radius: 5px;
-  box-shadow: 5px 5px 12px 2px #96b8d4;
-
+  box-shadow: 5px 5px 10px 1px #9b9b9b;
   overflow: hidden;
 `;
 
@@ -51,10 +50,10 @@ export const StatisticsItem = styled.li`
 
 export const StatisticsItemLabel = styled.span`
   color: ${p => p.theme.colors.primaryText};
-  font-size: 13px;
+  font-size: 14px;
 `;
 
 export const StatisticsItemValue = styled.span`
   color: ${p => p.theme.colors.primaryText};
-  font-size: 22px;
+  font-size: 20px;
 `;
