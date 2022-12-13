@@ -15,7 +15,10 @@ export const TransactionBody = styled.tbody`
   font-size: 15px;
   font-weight: 300;
   line-height: 30px;
-  background-color: #fcf2f3;
+  background-color: ${p => p.theme.colors.white};
+  tr:nth-child(odd) {
+    background-color: ${p => p.theme.colors.lightGrey};
+  }
 `;
 export const TransactionHead = styled.thead`
   color: ${p => p.theme.colors.white};
