@@ -4,14 +4,15 @@ export const UserProfile = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  &:hover{
+    background-color: antiquewhite;
+  }
 
   width: 20%;
   margin: 15px auto;
-
   background-color: ${p => p.theme.colors.white};
   border-radius: 5px;
   box-shadow: 5px 5px 10px 1px #9b9b9b;
-
   overflow: hidden;
 `;
 

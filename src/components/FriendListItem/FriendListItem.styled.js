@@ -9,7 +9,11 @@ export const FriendItem = styled.li`
   padding: 10px 20px;
   border-radius: 5px;
   box-shadow: 5px 5px 10px 1px #9b9b9b;
-  :hover {
+  /* :hover {
+    background-color: ${p => p.theme.colors.blue};
+  } */
+
+  &:hover{
     background-color: ${p => p.theme.colors.blue};
   }
 `;
